@@ -1,0 +1,72 @@
+body{
+    background-color: #166d3b;
+background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+    width: 100%;
+	height: 100vh;
+}
+
+#show_sketch{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #00ff95 0%, #6ebe11 46%, #00ffd5 100%);
+color: wheat;
+border-radius: 75px;
+border-width: 0.00000000000000000000000001;
+border-color: #485461;
+font-size: 20px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+::selection { background-color: #C3CFE2; }
+
+
+p {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #33ff00 0%, #036100 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+}
+
+#modal_sketch{
+    background-color: #130f40;
+background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+color: wheat;
+}
+
+#Sketch_drawn{
+    text-transform: uppercase;
+	background: linear-gradient(to right, #ff0000 0%, #610000 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+span{
+    text-transform: uppercase;
+	background: linear-gradient(to right, #d9ff00 0%, #d46700 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+canvas{
+	border:5px solid white;
+	border-radius: 20px;
+	animation-name: example;
+	animation-duration: 4s;
+	margin-top: 200px;
+	animation-iteration-count: infinite;
+}
+
+@keyframes example{
+	from{box-shadow: 1px 1px 38px grey;}
+	to{box-shadow: 1px 1px 38px white;}
+}
